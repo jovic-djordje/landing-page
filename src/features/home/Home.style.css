@@ -69,3 +69,38 @@
   font-family: "Outfit";
   font-size: 13px;
 }
+
+.images-section {
+  padding: 70px 0px;
+}
+
+.image-section-holder {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.img-list-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.img-list {
+  list-style: none;
+}
+
+.img {
+  width: 100px;
+  list-style: none;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  filter: grayscale(1);
+}
+
+.img:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+}
