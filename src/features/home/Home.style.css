@@ -131,7 +131,7 @@
   text-transform: capitalize;
 }
 
-.discover-section-subheaading {
+.discover-section-subheading {
   max-width: 700px;
 }
 
@@ -149,7 +149,7 @@
   width: 100%;
   padding: 20px 0px;
   border-radius: 15px;
-  background-image: url("/public/images/layered-waves-haikei.svg");
+  background-image: url("/images/layered-waves-haikei.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
