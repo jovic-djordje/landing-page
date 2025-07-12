@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Alata&family=Bad+Script&family=Bebas+Neue&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sora:wght@100..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syncopate:wght@400;700&display=swap");
 
+/* HOME SECTION */
 .home-section {
   width: 100%;
+  padding: 70px 0px;
 }
 
 .home-section-holder {
@@ -31,12 +33,11 @@
 
 .home-section-title {
   font-size: 34px;
-  font-family: "Outfit";
 }
 
 .home-section-text {
   font-size: 16px;
-  font-family: "Outfit";
+
   line-height: 1.6;
 }
 
@@ -69,6 +70,8 @@
   font-family: "Outfit";
   font-size: 13px;
 }
+
+/* IMAGES SECTION */
 
 .images-section {
   padding: 70px 0px;
@@ -103,4 +106,180 @@
 .img:hover {
   filter: grayscale(0);
   cursor: pointer;
+}
+
+/* DISCOVER SECTION */
+
+.discover-section {
+  padding: 70px 0px;
+}
+
+.discover-section-holder {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  text-align: center;
+}
+
+.discover-section-heading {
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.discover-section-subheaading {
+  max-width: 700px;
+}
+
+.discover-card-holder {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
+}
+
+.discover-card {
+  max-width: 295px;
+  width: 100%;
+  padding: 20px 0px;
+  border-radius: 15px;
+  background-image: url("/public/images/layered-waves-haikei.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#card-1,
+#card-2,
+#card-3 {
+  padding-bottom: 50px;
+}
+
+.discover-card-width-holder {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 100%;
+}
+
+.discover-card-icon {
+  height: 50px;
+  width: 50%;
+  margin-bottom: 15px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(16%) saturate(2%)
+    hue-rotate(327deg) brightness(108%) contrast(101%);
+}
+
+.discover-card-title {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.discover-card-text {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 300;
+}
+
+/* DATA SECTION */
+.data-section {
+  padding: 70px 0px;
+}
+
+.data-section-holder {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.data-text-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30px;
+}
+
+.data-title {
+  font-size: 28px;
+  text-transform: capitalize;
+}
+
+.data-text span {
+  text-transform: uppercase;
+}
+
+.data-section-img {
+  max-width: 500px;
+  width: 100%;
+}
+
+/* WAREHOUSE SECTION */
+.warehouse-section {
+  padding: 70px 0px;
+  background-color: #1c2f36;
+}
+
+.warehouse-section-holder {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 0px auto;
+}
+
+.warehouse-title {
+  font-size: 28px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.warehouse-img {
+  width: 100%;
+}
+
+.warehouse-btn-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.warehouse-btn {
+  font-family: inherit;
+  max-width: 250px;
+  width: 100%;
+  padding: 10px 0px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: none;
+  background-color: #4b6b72;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #4b6b72;
+}
+
+.warehouse-btn:hover {
+  background: transparent;
+  border: 1px solid #fff;
 }
