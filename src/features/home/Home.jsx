@@ -1,10 +1,10 @@
- feat-part4
-import DataSection from "./components/DataSection";
 
-master
 import DiscoverSection from "./components/DiscoverSection";
 import HomeSection from "./components/HomeSection";
 import ImagesSection from "./components/ImagesSection";
+import DiscoverSection from "./components/DiscoverSection";
+import DataSection from "./components/DataSection";
+import WarehouseSection from "./components/WarehouseSection";
 
 const Home = () => {
   return (
@@ -12,10 +12,9 @@ const Home = () => {
       <HomeSection />
       <ImagesSection />
       <DiscoverSection />
- feat-part4
       <DataSection />
+      <WarehouseSection />
 
- master
     </div>
   );
 };

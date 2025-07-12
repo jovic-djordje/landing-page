@@ -115,7 +115,6 @@
   padding: 70px 0px;
 }
 
-
 .discover-section-holder {
   max-width: 1000px;
   width: 100%;
@@ -133,10 +132,10 @@
   text-transform: capitalize;
 }
 
+
 .discover-section-subheading {
   max-width: 700px;
   width: 100%;
-
 }
 
 .discover-card-holder {
@@ -234,5 +233,59 @@
 .data-section-img {
   max-width: 500px;
   width: 100%;
+}
+
+
+/* WAREHOUSE SECTION */
+.warehouse-section {
+  padding: 70px 0px;
+  background-color: #1c2f36;
+}
+
+.warehouse-section-holder {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 0px auto;
+}
+
+.warehouse-title {
+  font-size: 28px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.warehouse-img {
+  width: 100%;
+}
+
+.warehouse-btn-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.warehouse-btn {
+  font-family: inherit;
+  max-width: 250px;
+  width: 100%;
+  padding: 10px 0px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  border: none;
+  background-color: #4b6b72;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #4b6b72;
+}
+
+.warehouse-btn:hover {
+  background: transparent;
+  border: 1px solid #fff;
 }
 
