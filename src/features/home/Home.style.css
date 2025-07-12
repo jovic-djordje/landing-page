@@ -108,6 +108,7 @@
   cursor: pointer;
 }
 
+
 /* DISCOVER SECTION */
 
 .discover-section {
@@ -131,8 +132,10 @@
   text-transform: capitalize;
 }
 
-.discover-section-subheaading {
+
+.discover-section-subheading {
   max-width: 700px;
+  width: 100%;
 }
 
 .discover-card-holder {
@@ -194,6 +197,7 @@
   font-weight: 300;
 }
 
+
 /* DATA SECTION */
 .data-section {
   padding: 70px 0px;
@@ -230,6 +234,7 @@
   max-width: 500px;
   width: 100%;
 }
+
 
 /* WAREHOUSE SECTION */
 .warehouse-section {
@@ -283,3 +288,4 @@
   background: transparent;
   border: 1px solid #fff;
 }
+

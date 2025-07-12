@@ -1,3 +1,5 @@
+
+import DiscoverSection from "./components/DiscoverSection";
 import HomeSection from "./components/HomeSection";
 import ImagesSection from "./components/ImagesSection";
 import DiscoverSection from "./components/DiscoverSection";
@@ -12,6 +14,7 @@ const Home = () => {
       <DiscoverSection />
       <DataSection />
       <WarehouseSection />
+
     </div>
   );
 };
