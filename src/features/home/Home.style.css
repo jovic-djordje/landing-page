@@ -108,7 +108,6 @@
   cursor: pointer;
 }
 
-
 /* DISCOVER SECTION */
 
 .discover-section {
@@ -131,7 +130,6 @@
   font-size: 28px;
   text-transform: capitalize;
 }
-
 
 .discover-section-subheading {
   max-width: 700px;
@@ -197,7 +195,6 @@
   font-weight: 300;
 }
 
-
 /* DATA SECTION */
 .data-section {
   padding: 70px 0px;
@@ -234,7 +231,6 @@
   max-width: 500px;
   width: 100%;
 }
-
 
 /* WAREHOUSE SECTION */
 .warehouse-section {
@@ -289,3 +285,88 @@
   border: 1px solid #fff;
 }
 
+/* TOOL SECTION */
+.tools-section {
+  padding: 70px 0px;
+}
+
+.tools-section-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.tool-section-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tool-section-text-holder {
+  max-width: 370px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.tool-title {
+  text-transform: capitalize;
+}
+
+.tool-title span {
+  text-transform: lowercase;
+}
+
+.tool-text {
+  text-transform: capitalize;
+}
+
+.tool-text span {
+  text-transform: uppercase;
+}
+
+.tools-cards-holder {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.logo-holder {
+  max-width: 100px;
+  width: 100%;
+  min-height: 100px;
+  border: 3px solid #ff7675;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.tools-img {
+  max-width: 50px;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+}
+
+.tool-card-text {
+  font-size: 10px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
