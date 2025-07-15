@@ -49,7 +49,7 @@ const DiscoverSection = () => {
     <div className="discover-section">
       <div className="discover-section-holder">
         <h2 className="discover-section-heading">Discover your insights</h2>
-        <p className="discover-section-subheaading">
+        <p className="discover-section-subheading">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga adipisci
           in consequuntur repudiandae voluptas. Hic laborum architecto dolorum
           eos eligendi sint nesciunt voluptas suscipit modi.
