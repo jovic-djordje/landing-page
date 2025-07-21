@@ -50,6 +50,7 @@
   text-transform: capitalize;
   font-size: 16px;
   background-color: #d267cc;
+  color: #f2f2f2;
   cursor: pointer;
   margin-bottom: 10px;
 }
@@ -355,7 +356,7 @@
   align-items: center;
   gap: 5px;
   text-align: center;
-  background-color: #fff;
+  background-color: #f2f2f2;
 }
 
 .tools-img {
@@ -372,6 +373,10 @@
 }
 
 /* PRICING SECTION */
+.pricing-section {
+  padding: 70px 0px;
+}
+
 .pricing-section-holder {
   max-width: 1000px;
   width: 100%;
@@ -400,6 +405,7 @@
   display: flex;
   justify-content: center;
   align-items: stretch;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -558,4 +564,521 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* DEMO SECTION */
+.section-eight {
+  background-image: url(https://img.freepik.com/free-vector/beige-blurred-background_1034-247.jpg?t=st=1727372221~exp=1727375821~hmac=a2b810d…&w=740);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10% 0px;
+}
+
+.section-eight-holder {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-eight-heading {
+  font-size: 28px;
+}
+
+.home-section-btn a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+/* FOOTER */
+.footer {
+  padding: 2% 0;
+}
+
+.footer-holder {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-logo-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-logo {
+  width: 30px;
+}
+
+.header-text {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #4b6b72;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-icon {
+  width: 12px;
+}
+
+.privacy-terms {
+  text-transform: capitalize;
+}
+
+.privacy-terms:hover {
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES*/
+@media screen and (max-width: 1100px) {
+  .header-holder {
+    width: 90%;
+  }
+
+  .home-section-holder {
+    width: 90%;
+  }
+
+  .section-two-holder {
+    width: 90%;
+  }
+
+  .image-section-holder {
+    width: 90%;
+  }
+
+  .discover-section-holder {
+    width: 90%;
+  }
+
+  .data-section-holder {
+    width: 90%;
+  }
+
+  .data-section-img {
+    max-width: 450px;
+  }
+
+  .warehouse-section-holder {
+    width: 90%;
+  }
+
+  .tools-section-holder {
+    width: 90%;
+  }
+
+  .pricing-section-card-holder {
+    max-width: 700px;
+    gap: 15px;
+  }
+
+  .section-seven-survey {
+    width: 90%;
+  }
+
+  .section-seven-img {
+    max-width: 350px;
+  }
+
+  .section-seven-survey-text-holder {
+    max-width: 350px;
+  }
+
+  .survey-text {
+    font-size: 16px;
+  }
+
+  .section-seven-user-name {
+    font-size: 15px;
+  }
+
+  .section-seven-user-profession {
+    font-size: 15px;
+  }
+
+  .policy-terms-section-holder {
+    width: 90%;
+  }
+
+  .section-eight-holder {
+    width: 90%;
+    text-align: center;
+  }
+
+  .footer-holder {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .home-section-img {
+    max-width: 500px;
+  }
+
+  .data-section-img {
+    max-width: 400px;
+  }
+
+  .data-text-holder {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .section-seven-survey-text-holder {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .home-section-title {
+    font-size: 32px;
+  }
+
+  .home-section-text {
+    font-size: 15px;
+  }
+
+  .btn {
+    font-size: 18px;
+    max-width: 250px;
+  }
+
+  .director-words {
+    font-size: 12px;
+  }
+
+  .data-text-holder {
+    max-width: 350px;
+  }
+
+  .data-text {
+    font-size: 15px;
+  }
+
+  .tool-section-text-holder {
+    max-width: 300px;
+  }
+
+  .tool-text {
+    font-size: 15px;
+  }
+
+  .tool-title {
+    font-size: 20px;
+  }
+
+  .section-seven-img {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .home-section-title {
+    font-size: 26px;
+  }
+
+  .home-section-text {
+    font-size: 14px;
+  }
+
+  .director-words {
+    font-size: 10px;
+  }
+
+  .data-text-holder {
+    max-width: 300px;
+  }
+
+  .data-text {
+    font-size: 14px;
+  }
+
+  .warehouse-btn {
+    max-width: 200px;
+    font-size: 16px;
+  }
+
+  .section-seven-survey-text-holder {
+    max-width: 280px;
+  }
+
+  .survey-text {
+    font-size: 15px;
+  }
+
+  .section-seven-user-name {
+    font-size: 14px;
+  }
+
+  .section-seven-user-profession {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .home-section {
+    padding-bottom: 30px;
+  }
+
+  .home-section-holder {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .home-section-img {
+    max-width: 800px;
+  }
+
+  .home-section-text-holder {
+    max-width: 700px;
+  }
+
+  .home-section-title {
+    font-size: 34px;
+  }
+
+  .home-section-text {
+    font-size: 16px;
+  }
+
+  .director-words {
+    font-size: 13px;
+  }
+
+  .section-two-holder {
+    max-width: 600px;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .img-list-holder {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .section-two-logos {
+    max-width: 120px;
+  }
+
+  .img-list {
+    max-width: 120px;
+  }
+
+  .data-section-holder {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .data-text-holder {
+    max-width: 700px;
+  }
+
+  .data-text {
+    font-size: 16px;
+  }
+
+  .data-section-img {
+    max-width: 500px;
+  }
+
+  .tool-section-up {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .tool-section-text-holder {
+    align-items: center;
+    text-align: center;
+    max-width: 500px;
+  }
+
+  .tool-title {
+    font-size: 28px;
+  }
+
+  .section-seven-survey-width-holder {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .section-seven-img {
+    max-width: 550px;
+  }
+
+  .section-seven-survey-text-holder {
+    max-width: 450px;
+    text-align: start;
+  }
+
+  .survey-text {
+    font-size: 18px;
+  }
+
+  .section-seven-user-name {
+    font-size: 16px;
+  }
+
+  .section-seven-user-profession {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .responsive-hight-adjustment {
+    margin-bottom: 40px;
+  }
+
+  .warehouse-title {
+    text-align: center;
+  }
+
+  .warehouse-btn {
+    max-width: 150px;
+    font-size: 13px;
+  }
+
+  .section-seven-survey {
+    padding: 25px 0px;
+  }
+
+  .footer-holder {
+    flex-direction: column;
+  }
+
+  .footer-logo-holder {
+    justify-content: flex-start;
+  }
+
+  .footer-text {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .warehouse-btn {
+    max-width: 130px;
+    font-size: 11px;
+  }
+
+  .pricing-section-header-holder {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section-two-holder {
+    max-width: 400px;
+  }
+
+  .data-text-holder {
+    text-align: center;
+    align-items: center;
+  }
+
+  .data-text {
+    font-size: 15px;
+  }
+
+  .data-title {
+    font-size: 28px;
+  }
+
+  .section-seven-text {
+    font-size: 15px;
+  }
+
+  .survey-text {
+    font-size: 15px;
+  }
+
+  .section-seven-user-name {
+    font-size: 14px;
+  }
+
+  .section-seven-user-profession {
+    font-size: 14px;
+  }
+  .section-eight-heading {
+    font-size: 26px;
+  }
+
+  .section-eight-text {
+    font-size: 15px;
+  }
+
+  .footer {
+    padding: 5% 0px;
+  }
+
+  .footer-text {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .warehouse-img {
+    max-width: 400px;
+    margin-bottom: 15px;
+  }
+
+  .warehouse-btn-holder {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .warehouse-btn {
+    max-width: 200px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .home-section-title {
+    font-size: 29px;
+  }
+
+  .home-section-text {
+    font-size: 15px;
+  }
+
+  .director-words {
+    font-size: 11px;
+  }
+
+  .section-two-holder {
+    max-width: 350px;
+  }
+
+  .img-list-holder {
+    max-width: 350px;
+  }
+
+  .discover-section-subheading {
+    font-size: 15px;
+  }
 }

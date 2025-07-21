@@ -5,6 +5,7 @@ import DataSection from "./components/DataSection";
 import WarehouseSection from "./components/WarehouseSection";
 import ToolsSection from "./components/ToolsSection";
 import PricingSection from "./components/PricingSection";
+import DemoSection from "./components/DemoSection";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <WarehouseSection />
       <ToolsSection />
       <PricingSection />
+      <DemoSection />
     </div>
   );
 };
