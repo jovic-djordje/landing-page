@@ -1,3 +1,5 @@
+import optimizationProcess from "/images/process-optimization-concept-illustration.png";
+
 const DataSection = () => {
   return (
     <div className="data-section">
@@ -14,7 +16,7 @@ const DataSection = () => {
           </p>
         </div>
         <img
-          src="/images/graphic-section-four.png"
+          src={optimizationProcess}
           alt="graphic section four"
           className="data-section-img"
         />
