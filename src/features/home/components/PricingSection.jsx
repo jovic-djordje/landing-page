@@ -123,7 +123,11 @@ const PricingSection = () => {
 
         <div className="section-two-holder">
           {pricingSectionImages.map((pricingImage) => (
-            <img src={pricingImage.imageUrl} className="img" />
+            <img
+              src={pricingImage.imageUrl}
+              className="img"
+              key={pricingImage.id}
+            />
           ))}
         </div>
       </div>
