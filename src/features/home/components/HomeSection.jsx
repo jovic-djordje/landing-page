@@ -1,11 +1,12 @@
 import "../Home.style.css";
+import sourceCode from "/images/source-code-concept-illustration.png";
 
 const HomeSection = () => {
   return (
     <div className="home-section">
       <div className="home-section-holder">
         <img
-          src="https://cdni.iconscout.com/illustration/premium/thumb/web-data-analysis-illustration-download-in-svg-png-gif-file-formats--analytics-logo-programming-graph-business-activities-pack-illustrations-5605335.png"
+          src={sourceCode}
           alt="home section image"
           className="home-section-img"
         />
