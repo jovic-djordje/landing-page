@@ -1,136 +1,112 @@
-import analyticsLogo from "/images/google-analytics-logo.png";
-import amazonLogo from "/images/amazon-s3-logo.jpg";
-import cloudLogo from "/images/cloud-upload-logo.webp";
-import sqlLogo from "/images/postgresql-logo.png";
-import zendeskLogo from "/images/zendesk-logo.jpg";
-import mySqlLogo from "/images/mysql-logo.png";
-import facebookAdsLogo from "/images/facebook-ads-logo.png";
-import facebookLogo from "/images/Facebook-Logo.png";
-import googleAdWordsLogo from "/images/google-adwords-logo.png";
-import mongoLogo from "/images/MongoDB-Logo.png";
-import mixPanelLogo from "/images/mixpanel-logo.png";
-import salesForceLogo from "/images/Salesforce-Logo.png";
-import mailChimpLogo from "/images/mailchimp-logo.png";
-import stripeLogo from "/images/Stripe-Logo.png";
-import panoplyLogo from "/images/Panoly_Logo_Grey.png";
-import intercomLogo from "/images/intercom-logo.png";
-import lookerLogo from "/images/looker-logo.png";
-import tableauLogo from "/images/tableau-logo.png";
-import chartioLogo from "/images/chartio-logo.png";
-import metabaseLogo from "/images/metabase.png";
-import dataBrickLogo from "/images/Databricks_logo.webp";
-import redashLogo from "/images/redash_logo.webp";
-import zeppelinLogo from "/images/zeppelin-logo.png";
-import pytonLogo from "/images/python-logo.jpg";
-import rstudioLogo from "/images/RStudio-Logo.png";
-import sisenseLogo from "/images/sisense-logo.png";
+import {
+  AmazonLogo,
+  AnaliyticsLogo,
+  Chartio,
+  CloudLogo,
+  DataBricks,
+  FacebookAdsLogo,
+  FacebookLogo,
+  GoogleAdWords,
+  Intercom,
+  Looker,
+  MailChimp,
+  MetaBase,
+  MixPanel,
+  MongoLogo,
+  MySqlLogo,
+  Panoply,
+  Pyton,
+  Redash,
+  Rstudio,
+  SalesForce,
+  Sisense,
+  SqlLogo,
+  Stripe,
+  Tableau,
+  ZendeskLogo,
+  Zeppelin,
+} from "../../../assets/images";
 
 const ToolsSection = () => {
   const toolsSectionCardsHolder = [
     {
       id: 1,
-      imageUrl: (
-        <img src={analyticsLogo} alt="google analytics" className="tools-img" />
-      ),
+      imageUrl: <AnaliyticsLogo className="tools-img" />,
       text: "google analytics",
     },
     {
       id: 2,
-      imageUrl: <img src={amazonLogo} alt="amazon" className="tools-img" />,
+      imageUrl: <AmazonLogo className="tools-img" />,
       text: "amazon s3",
     },
     {
       id: 3,
-      imageUrl: (
-        <img src={cloudLogo} alt="cloud upload logo" className="tools-img" />
-      ),
+      imageUrl: <CloudLogo className="tools-img" />,
       text: "upload data",
     },
     {
       id: 4,
-      imageUrl: <img src={sqlLogo} alt="postgre sql" className="tools-img" />,
+      imageUrl: <SqlLogo className="tools-img" />,
       text: "PostgreSQL",
     },
     {
       id: 5,
-      imageUrl: (
-        <img src={zendeskLogo} alt="zendeks logo" className="tools-img" />
-      ),
+      imageUrl: <ZendeskLogo className="tools-img" />,
       text: "Zendesk",
     },
     {
       id: 6,
-      imageUrl: <img src={mySqlLogo} alt="mysql" className="tools-img" />,
+      imageUrl: <MySqlLogo className="tools-img" />,
       text: "MySQL",
     },
     {
       id: 7,
-      imageUrl: (
-        <img src={facebookAdsLogo} alt="facebook ads" className="tools-img" />
-      ),
+      imageUrl: <FacebookAdsLogo className="tools-img" />,
       text: "Facebook ads",
     },
     {
       id: 8,
-      imageUrl: <img src={facebookLogo} alt="facebook" className="tools-img" />,
+      imageUrl: <FacebookLogo className="tools-img" />,
       text: "facebook pages",
     },
     {
       id: 9,
-      imageUrl: (
-        <img
-          src={googleAdWordsLogo}
-          alt="google adwords"
-          className="tools-img"
-        />
-      ),
+      imageUrl: <GoogleAdWords className="tools-img" />,
       text: "Google adwords",
     },
     {
       id: 10,
-      imageUrl: <img src={mongoLogo} alt="mongo logo" className="tools-img" />,
+      imageUrl: <MongoLogo className="tools-img" />,
       text: "MongoDB",
     },
     {
       id: 11,
-      imageUrl: (
-        <img src={mixPanelLogo} alt="mixpanel logo" className="tools-img" />
-      ),
+      imageUrl: <MixPanel className="tools-img" />,
       text: "MixPanel",
     },
     {
       id: 12,
-      imageUrl: (
-        <img src={salesForceLogo} alt="sales force" className="tools-img" />
-      ),
+      imageUrl: <SalesForce className="tools-img" />,
       text: "SalesForce",
     },
     {
       id: 13,
-      imageUrl: (
-        <img src={mailChimpLogo} alt="mail chimp" className="tools-img" />
-      ),
+      imageUrl: <MailChimp className="tools-img" />,
       text: "Mail chimp",
     },
     {
       id: 14,
-      imageUrl: (
-        <img src={stripeLogo} alt="stripe logo" className="tools-img" />
-      ),
+      imageUrl: <Stripe className="tools-img" />,
       text: "Stripe",
     },
     {
       id: 15,
-      imageUrl: (
-        <img src={panoplyLogo} alt="panoply logo" className="tools-img" />
-      ),
+      imageUrl: <Panoply className="tools-img" />,
       text: "Panoply SDK",
     },
     {
       id: 16,
-      imageUrl: (
-        <img src={intercomLogo} alt="intercom logo" className="tools-img" />
-      ),
+      imageUrl: <Intercom className="tools-img" />,
       text: "Intercom",
     },
   ];
@@ -138,70 +114,52 @@ const ToolsSection = () => {
   const toolsSecondSectionCardsHolder = [
     {
       id: 1,
-      imageUrl: (
-        <img src={lookerLogo} alt="looker logo" className="tools-img" />
-      ),
+      imageUrl: <Looker className="tools-img" />,
       text: "Looker",
     },
     {
       id: 2,
-      imageUrl: (
-        <img src={tableauLogo} alt="tableau logo" className="tools-img" />
-      ),
+      imageUrl: <Tableau className="tools-img" />,
       text: "Tableau",
     },
     {
       id: 3,
-      imageUrl: (
-        <img src={chartioLogo} alt="chartio logo" className="tools-img" />
-      ),
+      imageUrl: <Chartio className="tools-img" />,
       text: "Chartio",
     },
     {
       id: 4,
-      imageUrl: (
-        <img src={metabaseLogo} alt="meatbase logo" className="tools-img" />
-      ),
+      imageUrl: <MetaBase className="tools-img" />,
       text: "Metabase",
     },
     {
       id: 5,
-      imageUrl: (
-        <img src={dataBrickLogo} alt="databricks" className="tools-img" />
-      ),
+      imageUrl: <DataBricks className="tools-img" />,
       text: "Data bricks",
     },
     {
       id: 6,
-      imageUrl: (
-        <img src={redashLogo} alt="redash logo" className="tools-img" />
-      ),
+      imageUrl: <Redash className="tools-img" />,
       text: "Redash",
     },
     {
       id: 7,
-      imageUrl: (
-        <img src={zeppelinLogo} alt="zeppelin logo" className="tools-img" />
-      ),
+      imageUrl: <Zeppelin className="tools-img" />,
       text: "Zeppelin",
     },
     {
       id: 8,
-      imageUrl: <img src={pytonLogo} alt="python logo" className="tools-img" />,
+      imageUrl: <Pyton className="tools-img" />,
       text: "iPython notebook",
     },
     {
       id: 9,
-      imageUrl: (
-        <img src={rstudioLogo} alt="rstudio logo" className="tools-img" />
-      ),
+      imageUrl: <Rstudio className="tools-img" />,
       text: "R-studio",
     },
     {
       id: 10,
-      imageUrl: (
-        <img src={sisenseLogo} alt="sisense logo" className="tools-img" />
-      ),
+      imageUrl: <Sisense className="tools-img" />,
       text: "Sisense",
     },
   ];

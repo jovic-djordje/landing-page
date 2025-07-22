@@ -1,4 +1,4 @@
-import optimizationProcess from "/images/process-optimization-concept-illustration.png";
+import { OptimizationProcess } from "../../../assets/images";
 
 const DataSection = () => {
   return (
@@ -15,11 +15,7 @@ const DataSection = () => {
             research.
           </p>
         </div>
-        <img
-          src={optimizationProcess}
-          alt="graphic section four"
-          className="data-section-img"
-        />
+        <OptimizationProcess className="data-section-img" />
       </div>
     </div>
   );

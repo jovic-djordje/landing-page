@@ -1,15 +1,11 @@
+import { ConceptIllustration, GoDaddyLogo } from "../../../assets/images/";
 import "../Home.style.css";
-import sourceCode from "/images/source-code-concept-illustration.png";
 
 const HomeSection = () => {
   return (
     <div className="home-section">
       <div className="home-section-holder">
-        <img
-          src={sourceCode}
-          alt="home section image"
-          className="home-section-img"
-        />
+        <ConceptIllustration className="home-section-img" />
         <div className="home-section-text-holder">
           <h1 className="home-section-title">
             Transform your data into analytics in under 10 minutes
@@ -20,10 +16,7 @@ const HomeSection = () => {
           </p>
           <button className="home-section-btn">Watch 2-min demo video</button>
           <div className="testemonial">
-            <img
-              src="https://images.otta.com/search/width_400/Y2FuZGlkYXRlLXByb2ZpbGUvY29tcGFueS1sb2dvcy84bk0wZnVnTWpSdll5eG8xMHNGV05zS2s0R1RnNjdpX3h4X0tQNzhsQmFVLnBuZw.png"
-              alt="logo"
-            />
+            <GoDaddyLogo />
             <p className="director-words">
               "Panoply enables non technical people to get questions answered
               more easily" - Nissim, Director of Product
