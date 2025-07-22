@@ -1,5 +1,5 @@
 import { FaRegCopyright } from "react-icons/fa";
-import logoEl from "/images/logo.png";
+import { DemoSecLogo } from "../../../assets/images";
 
 const DemoSection = () => {
   return (
@@ -27,7 +27,7 @@ const DemoSection = () => {
       <div className="footer">
         <div className="footer-holder">
           <div className="footer-logo-holder">
-            <img src={logoEl} alt="logo" className="footer-logo" />
+            <DemoSecLogo className="footer-logo" />
             <p className="header-text">panoply</p>
           </div>
           <div className="footer-text">
