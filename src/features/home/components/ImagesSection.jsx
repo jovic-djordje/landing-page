@@ -11,36 +11,37 @@ const ImagesSection = () => {
   const images = [
     {
       id: 1,
-      imageUrl: <MotoSport />,
+      Component: MotoSport,
     },
     {
       id: 2,
-      imageUrl: <Factual />,
+      Component: Factual,
     },
     {
       id: 3,
-      imageUrl: <InVision />,
+      Component: InVision,
     },
     {
       id: 4,
-      imageUrl: <Kimberly />,
+      Component: Kimberly,
     },
     {
       id: 5,
-      imageUrl: <Firefly />,
+      Component: Firefly,
     },
     {
       id: 6,
-      imageUrl: <Snc />,
+      Component: Snc,
     },
   ];
+
   return (
     <div className="images-section">
       <div className="image-section-holder">
         <ul className="img-list-holder">
-          {images.map((image) => (
-            <li key={image.id} className="img-list">
-              <img src={image.imageUrl} alt="" className="img" />
+          {images.map(({ id, Component }) => (
+            <li key={id} className="img-list">
+              <Component className="img" />
             </li>
           ))}
         </ul>

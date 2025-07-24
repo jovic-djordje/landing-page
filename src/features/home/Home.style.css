@@ -151,7 +151,7 @@
   width: 100%;
   padding: 20px 0px;
   border-radius: 15px;
-  background-image: url("/public/images/layered-waves-haikei.svg");
+  background-image: url("src/assets/images/layered-waves-haikei.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -476,7 +476,7 @@
 }
 
 .section-seven-blur-image {
-  background-image: url("/images/young-man-using-laptop-airport.avif");
+  background-image: url("src/assets/images/young-man-using-laptop-airport.avif");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
