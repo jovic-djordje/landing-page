@@ -12,6 +12,7 @@ import {
   Snc,
   YoungManAirport,
 } from "../../../assets/images";
+import { Component } from "react";
 
 const PricingSection = () => {
   const pricingCardArray = [
@@ -52,27 +53,27 @@ const PricingSection = () => {
   const pricingSectionImages = [
     {
       id: 1,
-      imageUrl: <MotoSport />,
+      Component: MotoSport,
     },
     {
       id: 2,
-      imageUrl: <Factual />,
+      Component: Factual,
     },
     {
       id: 3,
-      imageUrl: <InVision />,
+      Component: InVision,
     },
     {
       id: 4,
-      imageUrl: <Kimberly />,
+      Component: Kimberly,
     },
     {
       id: 5,
-      imageUrl: <Firefly />,
+      Component: Firefly,
     },
     {
       id: 6,
-      imageUrl: <Snc />,
+      Component: Snc,
     },
   ];
 
@@ -123,12 +124,8 @@ const PricingSection = () => {
         </div>
 
         <div className="section-two-holder">
-          {pricingSectionImages.map((pricingImage) => (
-            <img
-              src={pricingImage.imageUrl}
-              className="img"
-              key={pricingImage.id}
-            />
+          {pricingSectionImages.map(({ id, Component }) => (
+            <Component key={id} className="img" />
           ))}
         </div>
       </div>

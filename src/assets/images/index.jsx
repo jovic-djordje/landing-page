@@ -28,6 +28,7 @@ import rstudioLogo from "./RStudio-Logo.png";
 import sisenseLogo from "./sisense-logo.png";
 import youngManAtAirport from "./young-man-using-laptop-airport.avif";
 import optimizationProcess from "./process-optimization-concept-illustration.png";
+import sectionFiveImg from "./section-five-image.png";
 
 const ConceptIllustration = ({ className }) => {
   return <img src={sourceCode} className={className} />;
@@ -151,36 +152,65 @@ const YoungManAirport = ({ className }) => {
   return <img src={youngManAtAirport} className={className} />;
 };
 
-const MotoSport = () => {
-  return <img src="https://euid.eu/img/partners/motorsport_network_logo.png" />;
-};
-
-const Factual = () => {
-  return <img src="https://logodix.com/logo/2122297.png" />;
-};
-
-const InVision = () => {
+const MotoSport = ({ className }) => {
   return (
-    <img src="https://tse2.mm.bing.net/th/id/OIP.KTzLl5L0L6qEg-XfLDPE8gHaCe?r=0&cb=thvnext&w=960&h=321&rs=1&pid=ImgDetMain&o=7&rm=3" />
+    <img
+      src="https://euid.eu/img/partners/motorsport_network_logo.png"
+      alt="motosport logo"
+      className={className}
+    />
   );
 };
 
-const Kimberly = () => {
-  return <img src="https://logonoid.com/images/kimberly-clark-logo.png" />;
-};
-
-const Firefly = () => {
+const Factual = ({ className }) => {
   return (
-    <img src="https://wallpapers.com/images/hd/firefly-logo-graphic-drr8auk8llwdj0hc.jpg" />
+    <img src="https://logodix.com/logo/2122297.png" className={className} />
   );
 };
 
-const Snc = () => {
-  <img src="https://snc.wd1.myworkdayjobs.com/wday/cxs/snc/SNC_External_Career_Site/sidebarimage/57dea109fbe11001a57f8cfd66a50000" />;
+const InVision = ({ className }) => {
+  return (
+    <img
+      src="https://tse2.mm.bing.net/th/id/OIP.KTzLl5L0L6qEg-XfLDPE8gHaCe?r=0&cb=thvnext&w=960&h=321&rs=1&pid=ImgDetMain&o=7&rm=3"
+      alt="invision logo"
+      className={className}
+    />
+  );
+};
+
+const Kimberly = ({ className }) => {
+  return (
+    <img
+      src="https://logonoid.com/images/kimberly-clark-logo.png"
+      className={className}
+    />
+  );
+};
+
+const Firefly = ({ className }) => {
+  return (
+    <img
+      src="https://wallpapers.com/images/hd/firefly-logo-graphic-drr8auk8llwdj0hc.jpg"
+      className={className}
+    />
+  );
+};
+
+const Snc = ({ className }) => {
+  return (
+    <img
+      src="https://snc.wd1.myworkdayjobs.com/wday/cxs/snc/SNC_External_Career_Site/sidebarimage/57dea109fbe11001a57f8cfd66a50000"
+      className={className}
+    />
+  );
 };
 
 const OptimizationProcess = ({ className }) => {
   return <img src={optimizationProcess} className={className} />;
+};
+
+const SectionFiveImg = ({ className }) => {
+  return <img src={sectionFiveImg} className={className} />;
 };
 
 export {
@@ -221,4 +251,5 @@ export {
   Firefly,
   Snc,
   OptimizationProcess,
+  SectionFiveImg,
 };
